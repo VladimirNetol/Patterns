@@ -18,6 +18,7 @@ class ReplanMeeting {
 
     @Test
     void shouldSuccessfulPlanAndReplanMeeting() {
+
         var validUser = DataGenerator.Registration.generateUser("ru");
         var daysToAddForFirstMeeting = 8;
         var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
