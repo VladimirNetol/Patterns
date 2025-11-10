@@ -1,5 +1,6 @@
 package ru.netology.delivery.test;
 
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
@@ -13,7 +14,7 @@ class ReplanMeeting {
 
     @BeforeEach
     void setup() {
-        open("http://localhost:9999");
+        Selenide.open("http://localhost:9999");
     }
 
     @Test
